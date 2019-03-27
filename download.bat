@@ -1,5 +1,5 @@
 echo "Fetching extension"
-curl extension.zip https://canopus.letznav.com/api/public/admin/extensions/player3/player3Chrome.zip?extensionType=9 -- extension.zip
+curl https://canopus.letznav.com/api/public/admin/extensions/player3/player3Chrome.zip?extensionType=9 --O extension.zip
 
 echo "Creating extensions folder"
 mkdir C:\extensions
