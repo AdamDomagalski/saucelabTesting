@@ -1,3 +1,3 @@
-powershell -Command "& {wget https://canopus.letznav.com/api/public/admin/extensions/player3/player-%20hrome.zip?extensionType=9 -O C:\Users\Administrator\Desktop\extension.zip;}"
+powershell -Command "& {wget https://canopus.letznav.com/api/public/admin/extensions/player3/player.crx?extensionType=10 -O C:\Users\Administrator\Desktop\extension.zip;}"
 powershell -Command "& {mkdir C:\Users\Administrator\Desktop\extensions}"
 powershell -Command "& {Expand-Archive C:\Users\Administrator\Desktop\extension.zip C:\Users\Administrator\Desktop\extensions}"
